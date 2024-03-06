@@ -2,7 +2,7 @@ import React from 'react'
 
 const useFeaturesCard = ({icon,text,content}) => {
   return (
-    <div className='group  flex flex-col items-center justify-center border rounded-md shadow-[5px_10px_5px_#736e6e] p-[1rem] gap-3 md:w-[20rem] lg:w-[21rem] bg-[#FFFFFF] hover:bg-[#2a3c7a] hover:text-white ease-in duration-1000'>
+    <div className='group  flex flex-col items-center justify-center border rounded-md shadow-[5px_10px_5px_#736e6e] p-[1rem] gap-3 md:w-[20rem] lg:w-[21rem] bg-[#FFFFFF] hover:bg-[#2a3c7a] hover:text-white ease-in duration-500'>
       <div className='rounded-[10rem] border-[#736e6e] w-[8rem]'> 
       <img className=' rounded-[10rem] border border-[#8a1db3] shadow-[3px_7px_3px_#8a1db3] w-[6rem] h-[6rem]' src={icon} alt="icon" />
       </div>
