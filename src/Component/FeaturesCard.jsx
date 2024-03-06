@@ -8,7 +8,7 @@ const useFeaturesCard = ({icon,text,content}) => {
       </div>
       <h1 className='font-bold text-[1.5rem] '>{text}</h1>
       <p>{content}</p>
-      <button className='p-[0.5rem] group-hover:text-white px-[2rem] border border-[#3CB815] rounded-[10rem] hover:bg-[#3CB815] hover:text-white  text-black ease-in duration-1000'>Read More</button>
+      <button className='p-[0.5rem] group-hover:text-white px-[2rem] border border-[#06FF00] rounded-[10rem] hover:bg-[#06FF00] hover:text-white  text-black ease-in duration-1000'>Read More</button>
     </div>
   )
 }

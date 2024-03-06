@@ -11,12 +11,13 @@ import { MdEmail } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className='w-[100vw] p-[1.5rem] bg-black text-white flex flex-wrap gap-[2rem] items-center justify-center border border-red-500'>
+    <div className='w-[100vw] p-[1.5rem] bg-black text-white flex flex-wrap gap-[4rem] items-center lg:justify-center lg:items-start'>
       {/* LEFT FOOTER */}
-      <div className='flex flex-col border border-black gap-[1.5rem] '>
+      <div className='flex flex-col gap-[1.5rem] '>
         <div>
           <img src={logo} alt="LogoImage" className='w-[4rem]' />
         </div>
+        <div className='flex flex-col gap-[2rem] font-thin'>
         <p className='font-light w-[15rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, commodi.</p>
         <div className='flex gap-[0.5rem] '>
         <Link className='w-[2rem] rounded-[50%] '><CiTwitter className='text-[1.5rem] rounded-[50%]'/></Link>
@@ -24,12 +25,13 @@ const Footer = () => {
         <Link className='w-[2rem]  rounded-[50%] '><FaYoutube className='text-[1.5rem] rounded-[50%]'/></Link>
         <Link className='w-[2rem]  rounded-[50%]'><CiLinkedin className='text-[1.5rem] rounded-[50%]'/></Link>
         </div>
+        </div>
       </div> 
       {/* CENTER FOOTER */}
       <div className='flex flex-col
-       gap-[1.5rem]'>
-        <h1 className='font-bold text-[1.5rem]'>Address</h1>
-      <div>
+       gap-[3rem] '>
+        <h1 className='font-bold text-[1.5rem]  '>Address</h1>
+      <div className='flex flex-col gap-1 font-thin'>
         <div className='flex gap-[0.5rem] items-center'>
           <FaLocationDot />
           <p>Varanasi</p>
@@ -45,9 +47,9 @@ const Footer = () => {
       </div>
       </div>
       {/* QUICK LINKS */}
-      <div className='flex flex-col gap-[1rem]'>
+      <div className='flex flex-col gap-[3rem] '>
         <h1 className='font-bold text-[1.5rem]'>Quick Links</h1>
-        <div>
+        <div className='flex flex-col gap-1 font-thin'>
         <div className='flex items-center ease-in duration-500   hover:px-[0.6rem] hover:text-red-600'>
         <MdKeyboardArrowRight />
         <p className='font-normal'>About Us</p>
@@ -68,10 +70,13 @@ const Footer = () => {
       </div>
 
       {/* NEWSLETTERS */}
-      <div>
+      <div className='flex flex-col gap-[3rem]'>
         <h1 className='text-[1.5rem] font-bold'>NewsLetter</h1>
+        <div className='relative font-thin'>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <input type="text" placeholder='Enter' className='p-[0.2rem] bg-black border'/>
+        <input type="text" placeholder='Your mail' className='p-[0.4rem] px-[1rem] bg-black border'/>
+        <button className='p-[0.4rem] px-[1rem] bg-[#06FF00] border absolute left-[7.8rem]'>Sign Up</button>
+        </div>
       </div>
     </div>
   )

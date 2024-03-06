@@ -28,7 +28,7 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
-        <button className='p-[1rem]  w-fit border border-black rounded-full px-[3rem] bg-[#3CB815] text-white border-none ease-in duration-1000  hover:text-red-400'>Read More</button>
+        <button className='p-[1rem]  w-fit border border-black rounded-full px-[3rem] bg-[#06FF00] text-white border-none ease-in duration-1000  hover:text-red-400'>Read More</button>
       </div>
     </div>
   )

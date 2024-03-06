@@ -16,14 +16,14 @@ const Header = () => {
         <GiHamburgerMenu className='text-[1.5rem]'/>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100  w-[20rem] transition-[2s] flex flex-col gap-[2.5rem]  absolute top-[-2rem] left-[-1rem] ">
-       <div className='flex  justify-center border-b-2'> 
-         <img  className='w-[8rem]'  src={logo} alt="ecologo" />
+       <div className='flex justify-center border-b-2'> 
+         <img  className='w-[2rem]'  src={logo} alt="ecologo" />
         </div> 
         <div>
         <li ><a className='text-[1.2rem] border-b-1 '>Item 1</a></li>
         <li className='b '>
           <a className='text-[1.2rem] group '>Item 2
-          <ul className="p-2 hidden group-hover:text-red-400 group-hover:block">
+          <ul className="hidden p-2 group-hover:text-red-400 group-hover:block">
             <li className='text-[1.2rem]'><a className='text-[1.2rem]'>Sublist 1</a></li>
             <li className='text-[1.2rem]'><a className='text-[1.2rem]'>Sublist 2</a></li>
           </ul>
@@ -33,12 +33,12 @@ const Header = () => {
         </div>
       </ul>
     </div>
-    {/* <a className="btn btn-ghost text-xl">Organic Food</a> */}
+    {/* <a className="text-xl btn btn-ghost">Organic Food</a> */}
     <img  className='w-[8rem]'  src={logo} alt="ecologo" />
   </div>
 
-  <div className="navbar-center hidden lg:flex ">
-    <ul className="menu menu-horizontal px-1">
+  <div className="hidden navbar-center lg:flex ">
+    <ul className="px-1 menu menu-horizontal">
       <li><a className='text-[1.5rem]'>Item 1</a></li>
       <li>
         <details>

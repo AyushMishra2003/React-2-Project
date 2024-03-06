@@ -22,7 +22,7 @@ const Review = () => {
   return (
     <div className=' pt-[1rem] w-[100vw]'>
       <div className='flex justify-center'>
-          <h1 className='text-[2rem] font-bold text-center text-[#000000]  border-b-2 border-red-500 w-fit'>Our Review</h1>
+          <h1 className='text-[2rem] font-bold text-center text-[#000000]  border-b-2 border-[#FF1700] w-fit'>Our Review</h1>
        </div>
        <Slider {...settings} className='flex items-center justify-center  w-[70rem] lg:w-[120vw]'>
           {useReviewData.map((val,ind)=><ReviewCard  image={val.image} username={val.username} profession={val.profession} review={val.reviewdata} key={ind+1}/>)}
