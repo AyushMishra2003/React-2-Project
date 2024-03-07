@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100  w-[20rem] transition-[2s] flex flex-col gap-[2.5rem]  absolute top-[-2rem] left-[-1rem] ">
        <div className='flex justify-center border-b-2'> 
-         <img  className='w-[2rem]'  src={logo} alt="ecologo" />
+         <img  className='w-[4rem]'  src={logo} alt="ecologo" />
         </div> 
         <div>
         <li ><a className='text-[1.2rem] border-b-1 '>Item 1</a></li>
@@ -34,7 +34,7 @@ const Header = () => {
       </ul>
     </div>
     {/* <a className="text-xl btn btn-ghost">Organic Food</a> */}
-    <img  className='w-[8rem]'  src={logo} alt="ecologo" />
+    <img  className='w-[4rem]'  src={logo} alt="ecologo" />
   </div>
 
   <div className="hidden navbar-center lg:flex ">
@@ -55,9 +55,9 @@ const Header = () => {
   {/* ICONS -HEADER */}
   <div className="navbar-end  flex gap-[0.3rem]">
     {/* <a className="btn border border-black p-[0.5rem] px-[0.5rem]">Button</a> */}
-    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF]'><CiSearch className='text-[1.2rem]'/></Link>
-    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF]'><CiUser className='text-[1.2rem]'/></Link>
-    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF]'><FaShoppingBag className='text-[1.2rem]'/></Link>
+    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF] hover:bg-[#FF1700] ease-in duration-300'><CiSearch className='text-[1.2rem] text-black'/></Link>
+    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF] hover:bg-[#FF1700] ease-in duration-300'><CiUser className='text-[1.2rem]'/></Link>
+    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF] hover:bg-[#FF1700] ease-in duration-300'><FaShoppingBag className='text-[1.2rem]'/></Link>
   </div>
 </div>
   )

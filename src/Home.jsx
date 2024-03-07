@@ -7,6 +7,7 @@ import FoodProduct from './FoodProduct'
 // import Review from './Review'
 import Review_Page from './Review_Page'
 import Review from './Review'
+import Blog from './Blog'
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
         <Feature/>
         <FoodProduct/>
         <Review/>
+        <Blog/>
     </div>
   )
 }

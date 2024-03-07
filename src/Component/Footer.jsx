@@ -11,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className='w-[100vw] p-[1.5rem] bg-black text-white flex flex-wrap gap-[4rem] items-center lg:justify-center lg:items-start'>
+    <div className='w-[100vw] p-[1.5rem]  pt-[6rem] bg-black text-white flex flex-wrap gap-[4rem] items-center lg:justify-center lg:items-start'>
       {/* LEFT FOOTER */}
       <div className='flex flex-col gap-[1.5rem] '>
         <div>
@@ -19,11 +19,11 @@ const Footer = () => {
         </div>
         <div className='flex flex-col gap-[2rem] font-thin'>
         <p className='font-light w-[15rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, commodi.</p>
-        <div className='flex gap-[0.5rem] '>
-        <Link className='w-[2rem] rounded-[50%] '><CiTwitter className='text-[1.5rem] rounded-[50%]'/></Link>
-        <Link className='w-[2rem]   rounded-[50%] '><CiFacebook className='text-[1.5rem] rounded-[50%]'/></Link>
-        <Link className='w-[2rem]  rounded-[50%] '><FaYoutube className='text-[1.5rem] rounded-[50%]'/></Link>
-        <Link className='w-[2rem]  rounded-[50%]'><CiLinkedin className='text-[1.5rem] rounded-[50%]'/></Link>
+        <div className='flex gap-[0.5rem]  items-center '>
+        <Link className='w-fit rounded-[100%] '><CiTwitter className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
+        <Link className='w-fit   rounded-[100%]  '><CiFacebook className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
+        <Link className='w-fit rounded-[100%]'><FaYoutube className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
+        <Link className='w-fit rounded-[100%]'><CiLinkedin className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
         </div>
         </div>
       </div> 
@@ -74,8 +74,8 @@ const Footer = () => {
         <h1 className='text-[1.5rem] font-bold'>NewsLetter</h1>
         <div className='relative font-thin'>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <input type="text" placeholder='Your mail' className='p-[0.4rem] px-[1rem] bg-black border'/>
-        <button className='p-[0.4rem] px-[1rem] bg-[#06FF00] border absolute left-[7.8rem]'>Sign Up</button>
+        <input type="text" placeholder='Your mail' className='p-[0.8rem] px-[3rem] bg-black border'/>
+        <button className='p-[0.8rem] px-[2rem] bg-[#06FF00] border absolute left-[9.7rem]'>Sign Up</button>
         </div>
       </div>
     </div>

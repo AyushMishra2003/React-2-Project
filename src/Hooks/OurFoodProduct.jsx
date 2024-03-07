@@ -43,18 +43,6 @@ const useFoodProduct =[
         "Pname":"Product Name",
         "Price":"$41.5",
         "DPrice":"$31.4",
-     },
-     {
-        "img":img7,
-        "Pname":"Product Name",
-        "Price":"$41.5",
-        "DPrice":"$31.4",
-     },
-     {
-        "img":img8,
-        "Pname":"Product Name",
-        "Price":"$41.5",
-        "DPrice":"$31.4",
      }
 ]
 
