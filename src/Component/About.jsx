@@ -1,34 +1,18 @@
 import React from 'react'
 import about from '../assets/aboutimg.jpg'
 import { TiTick } from "react-icons/ti";
+import img from '../assets/img/Home.jpg'
+import Typewriter from '../Hooks/Typewriter';
 const About = () => {
   return (
-    <div className='flex flex-col items-center justify-center w-[100vw] p-[1.5rem] gap-[2rem] lg:flex-row'>
-      <div>
-        <img className='lg:w-[30rem]'  src={about} alt="About-image" />
+    <div className='relative flex flex-col items-center justify-center'>
+      <div className='bg-red-500 heropaatern'>
+        <img src={img} className='w-[100vw] h-[24rem] lg:h-[30rem] xl:h-[34rem] ' alt="" />
       </div>
-      <div className='flex flex-col gap-[1.5rem]'>
-        <div>
-            <h1 className='text-[2rem] lg:text-[3rem] lg:text-bold lg:w-[30rem] font-bold  text-black'>Best Organic Fruits And Vegetables</h1>
-        </div>
-        <div>
-            <p className=' w-[17rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum ad et iusto sunt. Vero error quisquam consectetur dicta corrupti?</p>
-        </div>
-        <div>
-            <div className='flex items-center gap-1'>
-            <TiTick className='text-[#3CB815]'/>
-             <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div className='flex items-center gap-1'>
-            <TiTick className='text-[#3CB815]'/>
-            <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div className='flex items-center gap-1'>
-            <TiTick className='text-[#3CB815]'/>
-            <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-        </div>
-        <button className='p-[1rem]  w-fit border border-black rounded-full px-[3rem] bg-[#06FF00] text-white border-none ease-in duration-1000  hover:text-red-400'>Read More</button>
+      <div className='absolute top-[2rem] left-[1rem] text-white w-[17rem] lg:w-[22rem] xl-w-[38rem] flex flex-col gap-[1rem] sm:left-[2rem] lg:left-[6rem] lg:top-[5rem] xl:left-[10rem]'>
+        <p className=' text-black text-[2.5rem] font-mono'>Be Natural</p>
+        <Typewriter text="Always Greet Farmers For The Food We Eat" delay={100} infinite  />
+        <p className='text-[1em] '>And In Order To Make A Business, Brand Advertising And Marketing Plays An Important Role. Similarly, In Making Cultivation Business A Brand, Good Slogans Are Necessary.</p>
       </div>
     </div>
   )

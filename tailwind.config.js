@@ -13,7 +13,10 @@ export default {
       'xl': '1280px',
       '2xl':'1536'
     },
-    extend: {},
+    extend: {
+      'heropaatern':
+      "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8))"
+    },
   },
   plugins: [require("daisyui")],
 }

@@ -1,28 +1,29 @@
 import React from 'react'
-import img from '../assets/img/workprocess.jpg'
+import img1 from '../assets/img/plantflovours.jpg'
+import img2 from '../assets/img/wine.jpg'
+import img3 from '../assets/img/perfume.jpg'
+import img4 from '../assets/img/wine1.jpg'
 import logo from '../assets/img/workprocesslogo.jpeg'
 
 const useProcessData=[
     {
-      "image":img,
+      "image":img1,
       "logo":logo,
       "heading":"Plant based flavors Rearch",
-      "content":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, voluptatum."
+      "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, illo."
     },
     {
-        "image":img,
+        "image":img2,
         "logo":logo,
         "heading":"Plant based Color Rearch",
         "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, illo."
     },
     {
-        "image":img,
+        "image":img3,
         "logo":logo,
         "heading":"Perfume Research",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, illo."
-    },
-    {
-        "image":img,
+
+        "image":img4,
         "logo":logo,
         "heading":"Wine Research",
         "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, illo."

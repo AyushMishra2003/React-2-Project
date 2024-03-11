@@ -1,7 +1,7 @@
 import React from "react";
-import service1 from '../assets/img/serviceimg1.png'
-import service2 from '../assets/img/serviceimg2.jpg'
-import service3 from '../assets/img/serviceimg3.jpg'
+import service1 from '../assets/img/microgreen.jpg'
+import service2 from '../assets/img/labkesar.jpg'
+import service3 from '../assets/img/Komboocha.jpg'
 import servicelogo from '../assets/img/servicelogo.png'
 const useServiceData=[
     {

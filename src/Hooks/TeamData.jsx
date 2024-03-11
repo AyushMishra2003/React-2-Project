@@ -7,22 +7,22 @@ import img4 from '../assets/img/team4.jpg'
 const useTeamData=[
     {
       "image":img1,
-      "name":"John Singh",
+      "name":"Kalyan Singh",
       "profession":"Worker"
     },
     {
       "image":img2,
-      "name":"John Singh",
+      "name":"Pradeep Singh",
       "profession":"Worker"
     },
     {
         "image":img3,
-        "name":"John Singh",
+        "name":"Arjun Patil",
         "profession":"Worker"
     },
     {
        "image":img4,
-      "name":"John Singh",
+      "name":"Magehna Singh",
       "profession":"Worker"
     }
 ]
