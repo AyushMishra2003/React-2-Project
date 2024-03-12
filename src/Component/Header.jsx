@@ -41,7 +41,7 @@ const Header = () => {
 
   <div className="hidden navbar-center lg:flex ">
     <ul className="px-1 menu menu-horizontal">
-      <li><a className='text-[1.5rem]'>Item 1</a></li>
+    <Link to={"/"}><li><a className='text-[1.5rem] '>Home</a></li></Link>
       <li>
         <details>
           <summary className='text-[1.5rem]'>Item2</summary>
@@ -51,7 +51,7 @@ const Header = () => {
           </ul>
         </details>
       </li>
-      <li className='text-[1.5rem]'><a>Item 3</a></li>
+      <Link to={"/Contact"}><li className='text-[1.5rem]'><a>Contact Us</a></li></Link>
     </ul>
   </div>
   {/* ICONS -HEADER */}
