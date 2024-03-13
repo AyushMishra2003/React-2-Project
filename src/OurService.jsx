@@ -9,7 +9,7 @@ const OurService = () => {
         <h1 className='text-[2rem] text-center font-bold w-[20rem] sm:w-[22rem] md:w-[25rem]'>Best Agriculture Foods In The WorldHere</h1>
       </div>
       <div className='flex flex-col  gap-[8rem] lg:flex-row lg:gap-[3rem]'>
-      {useServiceData.map((val,ind)=><OurServcieCard image={val.img} heading={val.heading} text={val.text} logo={val.logo} key={ind+1}/>)}
+      {useServiceData.map((val,ind)=><OurServcieCard image={val.img} heading={val.heading} text={val.text} logo={val.logo} To={val.to} key={ind+1}/>)}
       </div>
     </div>
   )

@@ -1,24 +1,24 @@
 import React from "react";
-import img1 from '../assets/img/microgreen.jpg'
-import img2 from '../assets/img/plantflovours.jpg'
-import img3 from '../assets/img/Komboocha.jpg'
+import wine from '../assets/img/wine (1).jpg'
+import perfume from '../assets/img/plant based perfumes.jpg'
+import kesar from '../assets/img/kesar 2.jpg'
 
 const useLatestResearchData=[
     {
-      "image":img1,
-      "For":"Microgreen",
+      "image":wine,
+      "For":"WINE",
       "link":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, mollitia!",
        "content":"Lorem ipsum dolor sit amet.",
     },
     {
-        "image":img2,
-        "For":"PantFlavours",
+        "image":perfume,
+        "For":"PERFUME",
         "link":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, mollitia!",
          "content":"Lorem ipsum dolor sit amet.",
     },
     {
-        "image":img3,
-        "For":"Komboocha",
+        "image":kesar,
+        "For":"Kesar",
         "link":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, mollitia!",
          "content":"Lorem ipsum dolor sit amet.",
     },

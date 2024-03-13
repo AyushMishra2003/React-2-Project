@@ -52,6 +52,7 @@ const Header = () => {
         </details>
       </li>
       <Link to={"/Contact"}><li className='text-[1.5rem]'><a>Contact Us</a></li></Link>
+      <Link to={"/About"}><li className='text-[1.5rem]'><a>About Us</a></li></Link>
     </ul>
   </div>
   {/* ICONS -HEADER */}

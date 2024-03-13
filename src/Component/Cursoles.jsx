@@ -3,12 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaQuoteLeft } from "react-icons/fa";
-import user1 from '../assets/user1.png'
-import user2 from '../assets/user2.png'
-import user3 from '../assets/user3.png'
-import user4 from '../assets/user4.png'
-import user5 from '../assets/user5.png'
-import user6 from '../assets/user6.png'
+
 const Cursoles = () => {
     const settings = {
         dots: false,
@@ -31,7 +26,7 @@ const Cursoles = () => {
             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, laborum dolor sunt eligendi praesentium quo.</div>
              <div className='flex items-center gap-[1rem]'>
                 <div className='border border-[#C6CA53] w-[5rem] h-[5rem] rounded-[50%] bg-[#C6CA53]'>
-                   <img className='w-[5rem] h-[5rem] rounded-[100%]' src={user1} alt="" /> 
+               
                 </div>
                 <div>
                    <h1 className='font-bold text-[1.5rem]'>User name</h1>
@@ -46,7 +41,6 @@ const Cursoles = () => {
             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, laborum dolor sunt eligendi praesentium quo.</div>
              <div className='flex items-center gap-[1rem]'>
                 <div className='border border-[#C6CA53] w-[5rem] h-[5rem] rounded-[50%] bg-[#C6CA53]'>
-                   <img className='w-[5rem] h-[5rem] rounded-[100%]' src={user2} alt="" /> 
                 </div>
                 <div>
                    <h1 className='font-bold text-[1.5rem]'>User name</h1>
@@ -61,7 +55,6 @@ const Cursoles = () => {
             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, laborum dolor sunt eligendi praesentium quo.</div>
              <div className='flex items-center gap-[1rem]'>
                 <div className='border border-[#C6CA53] w-[5rem] h-[5rem] rounded-[50%] bg-[#C6CA53]'>
-                   <img className='w-[5rem] h-[5rem] rounded-[100%]' src={user3} alt="" /> 
                 </div>
                 <div>
                    <h1 className='font-bold text-[1.5rem]'>User name</h1>
