@@ -7,6 +7,7 @@ import Footer from './Component/Footer'
 import ContactPage from './ContactPage'
 import Kambucha from './Kambucha'
 import AboutUsPage from './AboutUsPage'
+import ComingSoon from './ComingSoon'
 const App = () => {
   return (
       <div className='flex flex-col items-center overflow-x-hidden'>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/contact' element={<ContactPage/>}/>
         <Route path='/Kambucha' element={<Kambucha/>}/>
         <Route path='/About' element={<AboutUsPage/>}/>
+        <Route path='/coming' element={<ComingSoon/>}/>
         </Routes>
         <Footer/>
         </div>

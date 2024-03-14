@@ -1,6 +1,7 @@
 import React from 'react'
 import aboutus from './assets/img/aboutusimg.png'
 import { TiTick } from "react-icons/ti";
+import { Link } from 'react-router-dom';
 const AboutUs = () => {
   return (
     <div className='flex flex-col  items-center justify-center  lg:flex-row lg:gap-[2rem] pt-[1.5rem]  '>
@@ -28,7 +29,9 @@ const AboutUs = () => {
            <p className='text-[1.2rem] font-semibold'>Knew About Fonts text the printing and something do.</p>
         </div>
       </div>  
+      <Link to={"/about"}>
         <button className='p-[0.8rem] items-center justify-center rounded-[0.3rem] bg-[#4BAF47] text-white hover:bg-[#ffffff] hover:text-black border border-[#4BAF47] ease-in duration-300 w-fit'>DISCOVER MORE</button>
+      </Link>  
       </div>
       </div>
     </div>

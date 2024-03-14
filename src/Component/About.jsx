@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='relative flex flex-col items-center justify-center'>
       <div className='bg-red-500'>
-        <img src={img} className='w-[100vw] h-[24rem] lg:h-[30rem] xl:h-[34rem] ' alt="" />
+        <img src={img} className='w-[100vw] h-[24rem] lg:h-[30rem] xl:h-[34rem]' alt="" />
       </div>
       <div className='absolute top-[2rem] left-[1rem] text-white w-[17rem] lg:w-[22rem] xl-w-[42rem] flex flex-col gap-[1rem] sm:left-[2rem] lg:left-[6rem] lg:top-[5rem] xl:left-[15rem]'>
         <p className=' text-black text-[2.5rem] font-mono'>Be Natural</p>
