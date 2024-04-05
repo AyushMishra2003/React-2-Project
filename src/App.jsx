@@ -17,11 +17,11 @@ const App = () => {
       <div className='flex flex-col items-center overflow-x-hidden'>
        <Header/> 
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/contact' element={<ContactPage/>}/>
-        <Route path='/Kambucha' element={<Kambucha/>}/>
-        <Route path='/About' element={<AboutUsPage/>}/>
-        <Route path='/coming' element={<ComingSoon/>}/>
+        <Route path='/React-2-Project' element={<Home/>}/>
+        <Route path='/React-2-Project/contact' element={<ContactPage/>}/>
+        <Route path='/React-2-Project/Kambucha' element={<Kambucha/>}/>
+        <Route path='/React-2-Project/About' element={<AboutUsPage/>}/>
+        <Route path='/React-2-Project/coming' element={<ComingSoon/>}/>
         </Routes>
         <Footer/>
         </div>
