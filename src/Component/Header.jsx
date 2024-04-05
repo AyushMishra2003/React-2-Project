@@ -7,36 +7,45 @@ import { CiInstagram } from "react-icons/ci";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
-import logo from '../assets/logo.png'
+import logo from '../assets/img/eflogo1.png'
 const Header = () => {
   return (
-    <div className="navbar bg-[#E1E4EB]">
+    <div className="text-green-500 bg-black navbar">
   <div className="navbar-start ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
         <GiHamburgerMenu className='text-[1.5rem]'/>
       </div>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100  w-[20rem] transition-[2s] flex flex-col gap-[2.5rem]  absolute top-[-2rem] left-[-1rem] ">
-       <div className='flex justify-center border-b-2'> 
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow  w-[100vw] transition-[2s] flex flex-col items-center gap-[2.5rem]  absolute top-[-2rem] left-[-1rem]  bg-black ">
+       <div className='flex justify-center items-center gap-[2rem] '> 
          <img  className='w-[4rem]'  src={logo} alt="ecologo" />
+         <p className='text-[1.6rem] font-a'>Environmental Food Pvt Ltd</p>
         </div> 
-        <div>
-        <li ><a className='text-[1.2rem] border-b-1 '>Item 1</a></li>
-        <li className='b '>
-          <a className='text-[1.2rem] group '>Item 2
-          <ul className="hidden p-2 group-hover:text-red-400 group-hover:block">
-            <li className='text-[1.2rem]'><a className='text-[1.2rem]'>Sublist 1</a></li>
-            <li className='text-[1.2rem]'><a className='text-[1.2rem]'>Sublist 2</a></li>
+        <div className='w-[100vw] flex flex-col items-center justify-center gap-3'>
+        <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]  border-b-1 '>Home</a></li>
+        <li className='border-t border-white w-[100vw] items-center'>
+        <details className='w-[15rem] flex flex-col items-center border-t border-white'>
+          <summary className='text-[1rem] text-[#08A05E] p-[0.2rem] px-[2rem] border border-white'>What We Do</summary>
+          <ul className="p-2 flex flex-col ">
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Food Development</a></li>
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Food Manufacturing</a></li>
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Sea Food Development</a></li>
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Nutrition Intelligence</a></li>
           </ul>
-          </a>
-        </li>
-        <li><a className='text-[1.2rem]'>Item 3</a></li>
+        </details>
+      </li>
+        <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Contact Us</a></li>
+        <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>About Us</a></li>
+        <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Application</a></li>
+        <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Industry</a></li>
+        <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Insight</a></li>
         </div>
       </ul>
     </div>
-    {/* <a className="text-xl btn btn-ghost">Organic Food</a> */}
-    <img  className='w-[4rem]'  src={logo} alt="ecologo" />
+       <div className="border border-white rounded-md flex items-center justify-center gap-3 p-2">
+         <img  className='w-[4rem]'  src={logo} alt="ecologo" />
+        <p className='text-[2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
+       </div>
   </div>
 
   <div className="hidden navbar-center lg:flex ">
@@ -44,15 +53,19 @@ const Header = () => {
     <Link to={"/"}><li><a className='text-[1rem] '>Home</a></li></Link>
       <li>
         <details>
-          <summary className='text-[1rem]'>Item2</summary>
-          <ul className="p-2 border">
-            <li><a>Sublist 1</a></li>
-            <li><a>Sublist 2</a></li>
+          <summary className='text-[1rem] text-[#08A05E]'>What We Do</summary>
+          <ul className="p-2  w-[20rem] flex flex-col items-center justify-center bg-[#d1d1d1]">
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Food Development</a></li>
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Food Manufacturing</a></li>
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Sea Food Development</a></li>
+            <li><a className='text-[1.2rem] text-[#08A05E]'>Nutrition Intelligence</a></li>
           </ul>
         </details>
       </li>
       <Link to={"/Contact"}><li className='text-[1rem]'><a>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1rem]'><a>About Us</a></li></Link>
+      <Link to={"/"}><li className='text-[1rem]'><a>Application</a></li></Link>
+      {/* <Link to={"/"}><li className='text-[1rem]'><a>CRO LABS</a></li></Link> */}
     </ul>
   </div>
   {/* ICONS -HEADER */}

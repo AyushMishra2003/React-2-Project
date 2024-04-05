@@ -7,28 +7,28 @@ import perfume from '../assets/img/plant based perfumes.jpg'
 const OurProduct = [
     {
        "image":Kamboccha,
-       "text":"kamboocha",
+       "text":"KAMBOCCHA",
        "to":"/Kambucha"
     },
     {
       "image":Kesar,
-      "text":"Kesar",
-      "to":"/Kambucha"
+      "text":"KESAR",
+      "to":"/"
     },
     {
       "image":wine,
-      "text":"Wine",
-      "to":"/Kambucha"
+      "text":"WINE",
+      "to":"/"
     },
    {
       "image":colors,
-      "text":"Color",
-      "to":"/Kambucha"
+      "text":"COLORS",
+      "to":"/"
    },
    {
      "image":perfume,
-     "text":"perfume",
-     "to":"/Kambucha"
+     "text":"PERFUME",
+     "to":"/"
    },
 ]
 

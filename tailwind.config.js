@@ -13,6 +13,13 @@ export default {
       '2xl':'1536'
     },
     extend: {
+      fontFamily:{
+        a:["Poppins","sans serif"],
+        cursive: ["Dancing Script", "cursive"],
+        curve: ["Just Me Again Down Here", "cursive"],
+        fonts: ["Just Me Again Down Here", "cursive"],
+        lobster:["lobster","sans-serif"]
+      },
       'heropaatern':
       "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8))"
     },

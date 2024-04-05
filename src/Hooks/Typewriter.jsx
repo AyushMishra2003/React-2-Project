@@ -21,7 +21,7 @@ const Typewriter = ({ text, delay, infinite }) => {
     return () => clearTimeout(timeout);
   }, [currentIndex, delay, infinite, text]);
 
-  return <span className='text-red-900 text-[1.5rem] sm:text-[1.7rem] lg:text-[2rem] xl:text-[2.2rem] font-bold md:text-[2rem]'>{currentText}</span>;
+  return <span className='text-[#EA80FC] text-[1.5rem] sm:text-[1.7rem] lg:text-[2rem] xl:text-[2.2rem] font-bold md:text-[2rem]'>{currentText}</span>;
 };
 
 export default Typewriter;

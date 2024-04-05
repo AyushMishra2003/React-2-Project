@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {ReactDOM} from 'react'
 import {Route,Routes} from 'react-router-dom'
 import Home from './Home'
@@ -8,7 +8,11 @@ import ContactPage from './ContactPage'
 import Kambucha from './Kambucha'
 import AboutUsPage from './AboutUsPage'
 import ComingSoon from './ComingSoon'
+// import ScrollToTop from '.'
 const App = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
       <div className='flex flex-col items-center overflow-x-hidden'>
        <Header/> 

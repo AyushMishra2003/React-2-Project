@@ -44,6 +44,10 @@ const ContactPage = () => {
                 <input type="email" placeholder='Enter Your Email Address' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11]' />
               </div>
               <div className='border-b-2 border-white'>
+                <p>Phone Number</p>
+                <input type="number" placeholder='Enter Your Mobile Number' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11]' />
+              </div>
+              <div className='border-b-2 border-white'>
                 <p>Message</p>
                 <textarea placeholder='Enter Your Message' className=' w-[18rem] h-[4rem] border-none lg:w-[22rem] bg-[#0B0E11] xl:w-[29rem] resize-none'/>
               </div>
@@ -52,7 +56,7 @@ const ContactPage = () => {
             {/* MAP */}
               <div className=''>
                    <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2080813490834!2d82.99154071088564!3d25.26358477757512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e31809b29df93%3A0x5bad5e4c326778c8!2sKabir%20Colony%2C%20Banaras%20Hindu%20University%2C%20Varanasi%2C%20Uttar%20Pradesh%20221005!5e0!3m2!1sen!2sin!4v1710238360803!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0369724128955!2d82.99323956088575!3d25.26934167757142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e3229c5f00e51%3A0x2a17ac9898868786!2sSchool%20of%20Biotechnology%20New%20Building!5e0!3m2!1sen!2sin!4v1711779891268!5m2!1sen!2sin" 
                 width="600"
                 height="400"
                 frameborder="0"
@@ -62,16 +66,7 @@ const ContactPage = () => {
                 tabindex="0"
                 className='w-[100vw]'
                 />
-                {/* <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin"
-                width="600"
-                height="450"
-                frameborder="0"
-                style={{ border: 0 }}
-                allowfullscreen=""
-                aria-hidden="false" 
-                tabindex="0"
-            />*/}
+
                </div>
             </div>
         </div>

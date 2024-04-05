@@ -11,22 +11,22 @@ const AboutUs = () => {
       <div className='flex flex-col justify-center gap-[1.3rem]  items-center lg:items-start  p-[2rem] lg:w-[38rem] xl:w-[40rem] '>
         <div className=''>
         <p className='text-[#4BAF47] text-start text-[1.2rem] font-bold italic'>ABOUT US</p>
-        <p className='text-[2.2rem]  font-bold sm:text-[2.5rem] '>Sustainable Agriculture And Environmental</p>
+        <p className='text-[2.2rem]  font-bold sm:text-[2.5rem] '>Environmental Food</p>
       </div>
       <div className=' flex flex-col  justify-center   gap-[1.2rem] '>
-      <p className=' font-normal text-[1.2rem]  '>Lorem Ipsum is simply dummy text of the printing and typesetting industry Loreaim Ipsum has been the industry's standard dummyLorem Ipsum is an oi simply dummy text of the printing and typesetting industry.</p>
+      <p className='text-[1.2rem] font-bold font-lobster'>Welcome to the Environmental Food Research Center, where we are dedicated to pioneering sustainable solutions for the food industry.  we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
       <div >
         <div className='flex items-center gap-[1rem] '>
            <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#EEC044]'><TiTick className='text-[#ffffff]  text-[1.3rem]'/></p>
-           <p className='text-[1.2rem] font-semibold'>Mistakes To Avoid to the dummy printing has bees ind.</p>
+           <p className='text-[1.2rem] font-semibold'>Nutrition and Health:</p>
         </div>
         <div className='flex items-center gap-[1rem] '>
           <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#EEC044]'><TiTick className='text-[#ffffff] text-[1.3rem]'/></p>
-           <p className='text-[1.2rem] font-semibold'>Your Startup industry standard loream saum.</p>
+           <p className='text-[1.2rem] font-semibold'>Food Waste Reduction</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
            <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#EEC044]'><TiTick className='text-[#ffffff] text-[1.3rem]'/></p>
-           <p className='text-[1.2rem] font-semibold'>Knew About Fonts text the printing and something do.</p>
+           <p className='text-[1.2rem] font-semibold'>Sustainable Agriculture.</p>
         </div>
       </div>  
       <Link to={"/about"}>
